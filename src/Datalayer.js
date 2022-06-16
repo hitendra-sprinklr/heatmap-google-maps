@@ -6,6 +6,10 @@ const Datalayer = ({ map }) => {
     if (map) {
       map.data.addGeoJson(india);
       console.log(map);
+
+      map.data.addListener("click", function (event) {
+        map.data.overrideStyle(event.feature, { fillColor: "red" });
+      });
     }
   }, [map]);
 
