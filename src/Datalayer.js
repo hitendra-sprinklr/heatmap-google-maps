@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import india from "./data/india.json";
 import TooltipDetails from "./TooltipDetails";
+import TooltipProperties from "./TooltipProperties";
 
 const Datalayer = ({ map }) => {
   let infoWindow = new window.google.maps.InfoWindow({});
@@ -16,8 +17,10 @@ const Datalayer = ({ map }) => {
         const id = event.feature.getProperty("iso");
         const tooltip = TooltipDetails({ name: name, id: id });
 
-        console.log(event);
-        infoWindow.setContent(tooltip);
+        const info = TooltipProperties({ data: event.feature.j });
+
+        //console.log(event);
+        infoWindow.setContent(info);
         infoWindow.setPosition(event.latLng);
         infoWindow.open({
           map: map,
