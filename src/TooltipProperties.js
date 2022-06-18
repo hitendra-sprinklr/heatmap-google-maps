@@ -1,12 +1,13 @@
 const TooltipProperties = ({ data }) => {
-  const info = {};
+  let str = "";
   for (let i in data) {
     // console.log(i, event.feature.j[i]);
-    if (data[i] != null) info[i] = data[i];
+    if (data[i] != null) {
+      str += `<div><b><span>${i}</span></b>  :  <span>${data[i]}</span></div>`;
+    }
   }
 
-  const d =
-    "<h3>Tooltip : Region Properties</h3>" + "<hr/>" + JSON.stringify(info);
+  const d = "<h3>Tooltip</h3>" + "<hr/>" + str;
 
   return d;
 };
