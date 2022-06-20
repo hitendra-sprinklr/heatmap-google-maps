@@ -1,5 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import india from "./data/india.json";
+import usa from "./data/china.json";
+import china from "./data/usa.json";
 import TooltipDetails from "./TooltipDetails";
 import TooltipProperties from "./TooltipProperties";
 
@@ -9,7 +11,9 @@ const Datalayer = ({ map }) => {
   useEffect(() => {
     if (map) {
       map.data.addGeoJson(india);
-      console.log(map);
+      map.data.addGeoJson(china);
+      map.data.addGeoJson(usa);
+      // console.log(map);
 
       map.data.addListener("click", function (event) {
         map.data.overrideStyle(event.feature, { fillColor: "red" });
