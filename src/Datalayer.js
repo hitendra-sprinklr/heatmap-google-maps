@@ -2,6 +2,8 @@ import { useEffect, useRef, useState } from "react";
 import india from "./data/india.json";
 import usa from "./data/china.json";
 import china from "./data/usa.json";
+import japan from "./data/japan.json";
+import spain from "./data/spain.json";
 import TooltipDetails from "./TooltipDetails";
 import TooltipProperties from "./TooltipProperties";
 
@@ -13,6 +15,8 @@ const Datalayer = ({ map }) => {
       map.data.addGeoJson(india);
       map.data.addGeoJson(china);
       map.data.addGeoJson(usa);
+      map.data.addGeoJson(japan);
+      map.data.addGeoJson(spain);
       // console.log(map);
 
       map.data.addListener("click", function (event) {
