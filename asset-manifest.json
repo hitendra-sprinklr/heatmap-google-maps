@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/heatmap-google-maps/static/css/main.29576153.css",
+    "main.js": "/heatmap-google-maps/static/js/main.2c66e2cb.js",
+    "index.html": "/heatmap-google-maps/index.html",
+    "main.29576153.css.map": "/heatmap-google-maps/static/css/main.29576153.css.map",
+    "main.2c66e2cb.js.map": "/heatmap-google-maps/static/js/main.2c66e2cb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.29576153.css",
+    "static/js/main.2c66e2cb.js"
+  ]
+}
