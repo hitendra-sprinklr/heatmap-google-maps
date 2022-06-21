@@ -1,12 +1,9 @@
-const TooltipDetails = (props) => {
-  return `
-      <div className="tooltip">
-        <h3>Tooltip</h3>
-        <hr />
-        <div className="country-name">Country : ${props.name}</div>
-        <div className="country-iso">ISO-CODE : ${props.id}</div>
-      </div>
-      `;
+const TooltipDetails = () => {
+  const insights = Math.floor(Math.random() * 100).toString();
+  const mentions = Math.floor(Math.random() * 200).toString();
+  const stars = Math.floor(Math.random() * 1000).toString();
+
+  return `<div><h3 >Dropdown</h3><hr/><div><b>Insights</b> : ${insights}</div><div><b>Mentions</b> : ${mentions}</div><div><b>Stars</b> : ${stars}</div></div>`;
 };
 
 export default TooltipDetails;
