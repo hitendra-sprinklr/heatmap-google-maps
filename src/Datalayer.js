@@ -6,11 +6,19 @@ import japan from "./data/japan.json";
 import spain from "./data/spain.json";
 import mexico from "./data/mexico.json";
 import brazil from "./data/brazil.json";
+import canada from "./data/canada.json";
 import TooltipDetails from "./TooltipDetails";
 import TooltipProperties from "./TooltipProperties";
 
 const Datalayer = ({ map }) => {
   let infoWindow = new window.google.maps.InfoWindow({});
+
+  const colors = ["green", "yellow", "red", "gray", "red"];
+
+  const getColor = () => {
+    const len = colors.length;
+    return colors[Math.floor(Math.random() * len)];
+  };
 
   useEffect(() => {
     if (map) {
@@ -21,10 +29,17 @@ const Datalayer = ({ map }) => {
       map.data.addGeoJson(spain);
       map.data.addGeoJson(mexico);
       map.data.addGeoJson(brazil);
+      map.data.addGeoJson(canada);
       // console.log(map);
 
+      map.data.setStyle(function (feature) {
+        return {
+          fillColor: getColor(),
+          fillOpacity: 0.3,
+        };
+      });
+
       map.data.addListener("click", function (event) {
-        map.data.overrideStyle(event.feature, { fillColor: "red" });
         // const name = event.feature.getProperty("Name");
         // const id = event.feature.getProperty("iso");
         // const tooltip = TooltipDetails({ name: name, id: id });
