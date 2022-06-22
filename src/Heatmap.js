@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
+import useData from "./useData";
 
 const Heatmap = ({ center, zoom, children }) => {
   const ref = useRef(null);
@@ -11,6 +12,9 @@ const Heatmap = ({ center, zoom, children }) => {
       setMap(new window.google.maps.Map(ref.current, { center, zoom }));
     }
   }, [ref, map]);
+
+  // This is a custom hook now which adds the data to the map
+  useData(map);
 
   return (
     <>

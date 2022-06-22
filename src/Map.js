@@ -20,7 +20,7 @@ const Map = () => {
         render={render}
       >
         <Heatmap center={center} zoom={zoom}>
-          <Datalayer />
+          {/* <Datalayer /> */}
         </Heatmap>
       </Wrapper>
     </div>

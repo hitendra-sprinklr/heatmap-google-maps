@@ -15,7 +15,7 @@ import newZealand from "./data/newZealand.json";
 import TooltipDetails from "./TooltipDetails";
 import TooltipProperties from "./TooltipProperties";
 
-const Datalayer = ({ map }) => {
+const useData = (map) => {
   let infoWindow = new window.google.maps.InfoWindow({});
 
   const colors = ["green", "yellow", "red", "gray", "red"];
@@ -40,7 +40,6 @@ const Datalayer = ({ map }) => {
       map.data.addGeoJson(california);
       map.data.addGeoJson(newZealand);
       map.data.addGeoJson(russia);
-      console.log(australia);
 
       map.data.setStyle(function (feature) {
         return {
@@ -78,8 +77,6 @@ const Datalayer = ({ map }) => {
       });
     }
   }, [map]);
-
-  return null;
 };
 
-export default Datalayer;
+export default useData;
