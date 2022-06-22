@@ -10,8 +10,8 @@ import canada from "./data/canada.json";
 import russia from "./data/russia.json";
 import australia from "./data/australia.json";
 import uk from "./data/uk.json";
-import california from "./data/california.json";
 import newZealand from "./data/newZealand.json";
+import california from "./data/california.json";
 import TooltipDetails from "./TooltipDetails";
 import TooltipProperties from "./TooltipProperties";
 
