@@ -18,7 +18,7 @@ const Map = () => {
         apiKey={"AIzaSyA9ZNsaoAQW1R8UlO8jaTb767HHNu80QJA"}
         render={render}
       >
-        {/* Setting up the Map to display on the screen with given center and zoom */}
+        {/* Sets up the Map to display on the screen with given center and zoom */}
         <Heatmap center={center} zoom={zoom} />
       </Wrapper>
     </div>

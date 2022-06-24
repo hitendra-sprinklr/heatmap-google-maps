@@ -7,13 +7,14 @@ const Heatmap = ({ center, zoom }) => {
 
   //console.log(map);
 
+  // Instantiates and sets up the map
   useEffect(() => {
     if (ref.current && !map) {
       setMap(new window.google.maps.Map(ref.current, { center, zoom }));
     }
   }, [ref, map]);
 
-  // This is a custom hook now which adds the data to the map
+  // Custom hook to add the geojson data to the map
   useData(map);
 
   return (

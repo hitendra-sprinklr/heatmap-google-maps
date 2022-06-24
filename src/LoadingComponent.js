@@ -1,3 +1,5 @@
+// Gets executed while the map is being loaded
+
 const LoadingComponent = () => {
   return (
     <div>

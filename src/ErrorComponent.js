@@ -1,3 +1,5 @@
+// Gets executed if there is any error loading the map
+
 const ErrorComponent = () => {
   return (
     <div>

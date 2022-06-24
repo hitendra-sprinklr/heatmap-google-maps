@@ -1,3 +1,5 @@
+// Return a string with custom data generated randomly
+
 const TooltipDetails = () => {
   const insights = Math.floor(Math.random() * 100).toString();
   const mentions = Math.floor(Math.random() * 200).toString();

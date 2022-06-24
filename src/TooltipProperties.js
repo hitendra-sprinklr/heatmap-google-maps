@@ -1,3 +1,5 @@
+// Return a string with the properties of the region
+
 const TooltipProperties = ({ data }) => {
   let str = "";
   for (let i in data) {
