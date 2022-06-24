@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import useData from "./useData";
 
-const Heatmap = ({ center, zoom, children }) => {
+const Heatmap = ({ center, zoom }) => {
   const ref = useRef(null);
   const [map, setMap] = useState();
 
@@ -19,12 +19,6 @@ const Heatmap = ({ center, zoom, children }) => {
   return (
     <>
       <div ref={ref} style={{ display: "flex", height: "100%" }} id="map" />
-      {React.Children.map(children, (child) => {
-        if (React.isValidElement(child)) {
-          // set the map prop on the child component
-          return React.cloneElement(child, { map });
-        }
-      })}
     </>
   );
 };

@@ -1,5 +1,4 @@
 import { Wrapper, Status } from "@googlemaps/react-wrapper";
-import Datalayer from "./Datalayer";
 import ErrorComponent from "./ErrorComponent";
 import Heatmap from "./Heatmap";
 import LoadingComponent from "./LoadingComponent";
@@ -19,9 +18,8 @@ const Map = () => {
         apiKey={"AIzaSyA9ZNsaoAQW1R8UlO8jaTb767HHNu80QJA"}
         render={render}
       >
-        <Heatmap center={center} zoom={zoom}>
-          {/* <Datalayer /> */}
-        </Heatmap>
+        {/* Setting up the Map to display on the screen with given center and zoom */}
+        <Heatmap center={center} zoom={zoom} />
       </Wrapper>
     </div>
   );

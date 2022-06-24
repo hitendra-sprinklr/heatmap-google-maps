@@ -47,7 +47,6 @@ const useData = (map) => {
         return {
           fillColor: getColor(),
           fillOpacity: 0.3,
-          strokeColor: "white",
           strokeWeight: 1,
         };
       });
