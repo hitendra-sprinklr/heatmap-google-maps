@@ -12,6 +12,7 @@ import australia from "./data/australia.json";
 import uk from "./data/uk.json";
 import newZealand from "./data/newZealand.json";
 import california from "./data/california.json";
+import france from "./data/france.json";
 import TooltipDetails from "./TooltipDetails";
 import TooltipProperties from "./TooltipProperties";
 
@@ -40,11 +41,14 @@ const useData = (map) => {
       map.data.addGeoJson(california);
       map.data.addGeoJson(newZealand);
       map.data.addGeoJson(russia);
+      map.data.addGeoJson(france);
 
       map.data.setStyle(function (feature) {
         return {
           fillColor: getColor(),
           fillOpacity: 0.3,
+          strokeColor: "white",
+          strokeWeight: 1,
         };
       });
 
