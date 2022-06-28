@@ -1,12 +1,12 @@
 import { useEffect, useRef, useState } from "react";
-import TooltipDetails from "./TooltipDetails";
-import TooltipProperties from "./TooltipProperties";
-import getColor from "./getColor";
+import TooltipDetails from "../components/TooltipDetails";
+import TooltipProperties from "../components/TooltipProperties";
+import getColor from "../components/getColor";
 
 // Importing Geojson files for the required countries
 
-import india from "./data/india.json";
-import usa from "./data/usa.json";
+import india from "../data/india.json";
+import usa from "../data/usa.json";
 
 //import china from "./data/china.json";
 // import japan from "./data/japan.json";

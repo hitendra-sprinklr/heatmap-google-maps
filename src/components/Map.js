@@ -1,11 +1,11 @@
 import { Wrapper, Status } from "@googlemaps/react-wrapper";
-import ErrorComponent from "./ErrorComponent";
+import Error from "./Error";
 import Heatmap from "./Heatmap";
-import LoadingComponent from "./LoadingComponent";
+import Loading from "./Loading";
 
 const render = (status) => {
-  if (status === Status.FAILURE) return <ErrorComponent />;
-  if (status === Status.LOADING) return <LoadingComponent />;
+  if (status === Status.FAILURE) return <Error />;
+  if (status === Status.LOADING) return <Loading />;
 };
 
 const Map = () => {

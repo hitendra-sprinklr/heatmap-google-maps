@@ -1,6 +1,6 @@
 // Gets executed while the map is being loaded
 
-const LoadingComponent = () => {
+const Loading = () => {
   return (
     <div>
       <h2>Loading the required resources from the API...</h2>
@@ -8,4 +8,4 @@ const LoadingComponent = () => {
   );
 };
 
-export default LoadingComponent;
+export default Loading;

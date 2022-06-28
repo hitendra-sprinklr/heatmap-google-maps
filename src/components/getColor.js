@@ -1,4 +1,4 @@
-import customData from "./data/customData";
+import customData from "../data/customData";
 //Returns a random color to fill the region
 
 const getColor = ({ regionName }) => {

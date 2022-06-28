@@ -1,5 +1,5 @@
 // Return a string with custom data generated randomly
-import customData from "./data/customData";
+import customData from "../data/customData";
 
 const TooltipDetails = ({ regionName }) => {
   const insights = customData[regionName].insights;

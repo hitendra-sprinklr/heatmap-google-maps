@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import useData from "./useData";
+import useData from "../hooks/useData";
 
 const Heatmap = ({ center, zoom }) => {
   const ref = useRef(null);
