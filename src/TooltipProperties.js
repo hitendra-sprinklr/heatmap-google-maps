@@ -9,7 +9,7 @@ const TooltipProperties = ({ data }) => {
     }
   }
 
-  const d = "<h3>Tooltip</h3>" + "<hr/>" + str;
+  const d = "<h3>Properties</h3>" + "<hr/>" + str;
 
   return d;
 };
