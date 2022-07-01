@@ -1,3 +1,3 @@
 # Deployed App link
 
-https://deft-kangaroo-8261d5.netlify.app/
+https://hitendra-sprinklr.github.io/heatmap-google-maps/
