@@ -49,7 +49,7 @@ const useData = (map) => {
         const regionName = feature.getProperty("name");
         return {
           fillColor: getColor({ regionName }),
-          fillOpacity: 0.7,
+          fillOpacity: 0.75,
           strokeWeight: 1,
           strokeColor: "white",
         };
