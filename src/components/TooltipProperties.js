@@ -1,17 +1,20 @@
 // Return a string with the properties of the region
 
 const TooltipProperties = ({ data }) => {
-  let str = "";
+  let info = "";
+  let counter = 0;
   for (let i in data) {
     // console.log(i, event.feature.j[i]);
+    if (counter === 3) break;
     if (data[i] != null) {
-      str += `<div><b><span>${i}</span></b>  :  <span>${data[i]}</span></div>`;
+      info += `<div><b><span>${i}</span></b>  :  <span>${data[i]}</span></div>`;
     }
+    counter++;
   }
 
-  const d = "<h3>Properties</h3>" + "<hr/>" + str;
+  const details = `<h3>Properties</h3> <hr/> ${info}`;
 
-  return d;
+  return details;
 };
 
 export default TooltipProperties;
