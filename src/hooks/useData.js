@@ -78,7 +78,6 @@ const useData = (map) => {
       // Event listener which on hover displays the Custom data (Insights,mentions,stars)
       let infoWindowhover = new window.google.maps.InfoWindow({});
       map.data.addListener("mouseover", function (event) {
-        infoWindow.close();
         const regionName = event.feature.getProperty("name");
         const info = TooltipDetails({ regionName });
 
@@ -94,6 +93,10 @@ const useData = (map) => {
       // Event listener which moving out of hover area closes the hover tooltip
       map.data.addListener("mouseout", function (event) {
         infoWindowhover.close();
+      });
+
+      map.addListener("click", function (event) {
+        infoWindow.close();
       });
     }
   }, [map]);
