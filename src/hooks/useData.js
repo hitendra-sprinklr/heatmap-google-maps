@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect } from "react";
 import TooltipDetails from "../components/TooltipDetails";
 import TooltipProperties from "../components/TooltipProperties";
 import getColor from "../components/getColor";
@@ -61,7 +61,10 @@ const useData = (map) => {
       map.data.addListener("click", function (event) {
         infoWindowhover.close();
 
-        const info = TooltipProperties({ data: event.feature.j }); // event.feature.j represents an object holding the properties of the clicked region of geojson data
+        const info = TooltipProperties({
+          data: event.feature.j,
+          regionName: event.feature.getProperty("name"),
+        }); // event.feature.j represents an object holding the properties of the clicked region of geojson data
 
         //console.log(event);
         infoWindow.setContent(info); // Sets the content of the infowindow
@@ -75,6 +78,7 @@ const useData = (map) => {
       // Event listener which on hover displays the Custom data (Insights,mentions,stars)
       let infoWindowhover = new window.google.maps.InfoWindow({});
       map.data.addListener("mouseover", function (event) {
+        infoWindow.close();
         const regionName = event.feature.getProperty("name");
         const info = TooltipDetails({ regionName });
 

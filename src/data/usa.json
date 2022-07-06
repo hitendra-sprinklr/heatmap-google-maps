@@ -163,7 +163,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "31",
+        "CODE": "31",
         "STUSPS": "NE",
         "name": "Nebraska"
       },
@@ -700,7 +700,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "53",
+        "CODE": "53",
         "STUSPS": "WA",
         "name": "Washington"
       },
@@ -778,7 +778,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "35",
+        "CODE": "35",
         "STUSPS": "NM",
         "name": "New Mexico"
       },
@@ -914,7 +914,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "46",
+        "CODE": "46",
         "STUSPS": "SD",
         "name": "South Dakota"
       },
@@ -1228,7 +1228,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "21",
+        "CODE": "21",
         "STUSPS": "KY",
         "name": "Kentucky"
       },
@@ -1467,7 +1467,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "13",
+        "CODE": "13",
         "STUSPS": "GA",
         "name": "Georgia"
       },
@@ -1699,7 +1699,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "05",
+        "CODE": "05",
         "STUSPS": "AR",
         "name": "Arkansas"
       },
@@ -1825,7 +1825,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "42",
+        "CODE": "42",
         "STUSPS": "PA",
         "name": "Pennsylvania"
       },
@@ -2127,7 +2127,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "28",
+        "CODE": "28",
         "STUSPS": "MS",
         "name": "Mississippi"
       },
@@ -2201,7 +2201,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "08",
+        "CODE": "08",
         "STUSPS": "CO",
         "name": "Colorado"
       },
@@ -2271,7 +2271,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "49",
+        "CODE": "49",
         "STUSPS": "UT",
         "name": "Utah"
       },
@@ -2481,7 +2481,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "47",
+        "CODE": "47",
         "STUSPS": "TN",
         "name": "Tennessee"
       },
@@ -2559,7 +2559,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "56",
+        "CODE": "56",
         "STUSPS": "WY",
         "name": "Wyoming"
       },
@@ -2760,7 +2760,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "18",
+        "CODE": "18",
         "STUSPS": "IN",
         "name": "Indiana"
       },
@@ -7469,7 +7469,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "02",
+        "CODE": "02",
         "STUSPS": "AK",
         "name": "Alaska"
       },
@@ -7586,7 +7586,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "32",
+        "CODE": "32",
         "STUSPS": "NV",
         "name": "Nevada"
       },
@@ -7859,7 +7859,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "17",
+        "CODE": "17",
         "STUSPS": "IL",
         "name": "Illinois"
       },
@@ -7979,7 +7979,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "50",
+        "CODE": "50",
         "STUSPS": "VT",
         "name": "Vermont"
       },
@@ -8216,7 +8216,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "30",
+        "CODE": "30",
         "STUSPS": "MT",
         "name": "Montana"
       },
@@ -8422,7 +8422,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "19",
+        "CODE": "19",
         "STUSPS": "IA",
         "name": "Iowa"
       },
@@ -8612,7 +8612,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "45",
+        "CODE": "45",
         "STUSPS": "SC",
         "name": "South Carolina"
       },
@@ -8778,7 +8778,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "04",
+        "CODE": "04",
         "STUSPS": "AZ",
         "name": "Arizona"
       },
@@ -8984,7 +8984,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "39",
+        "CODE": "39",
         "STUSPS": "OH",
         "name": "Ohio"
       },
@@ -9140,7 +9140,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "01",
+        "CODE": "01",
         "STUSPS": "AL",
         "name": "Alabama"
       },
@@ -9491,7 +9491,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "55",
+        "CODE": "55",
         "STUSPS": "WI",
         "name": "Wisconsin"
       },
@@ -9731,7 +9731,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "41",
+        "CODE": "41",
         "STUSPS": "OR",
         "name": "Oregon"
       },
@@ -9993,7 +9993,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "29",
+        "CODE": "29",
         "STUSPS": "MO",
         "name": "Missouri"
       },
@@ -10398,7 +10398,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "37",
+        "CODE": "37",
         "STUSPS": "NC",
         "name": "North Carolina"
       },
@@ -10598,7 +10598,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "40",
+        "CODE": "40",
         "STUSPS": "OK",
         "name": "Oklahoma"
       },
@@ -10945,7 +10945,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "51",
+        "CODE": "51",
         "STUSPS": "VA",
         "name": "Virginia"
       },
@@ -11204,7 +11204,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "54",
+        "CODE": "54",
         "STUSPS": "WV",
         "name": "West Virginia"
       },
@@ -11685,7 +11685,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "22",
+        "CODE": "22",
         "STUSPS": "LA",
         "name": "Louisiana"
       },
@@ -12366,7 +12366,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "26",
+        "CODE": "26",
         "STUSPS": "MI",
         "name": "Michigan"
       },
@@ -12544,7 +12544,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "25",
+        "CODE": "25",
         "STUSPS": "MA",
         "name": "Massachusetts"
       },
@@ -12822,7 +12822,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "16",
+        "CODE": "16",
         "STUSPS": "ID",
         "name": "Idaho"
       },
@@ -13272,7 +13272,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "12",
+        "CODE": "12",
         "STUSPS": "FL",
         "name": "Florida"
       },
@@ -13375,7 +13375,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "20",
+        "CODE": "20",
         "STUSPS": "KS",
         "name": "Kansas"
       },
@@ -13491,7 +13491,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "33",
+        "CODE": "33",
         "STUSPS": "NH",
         "name": "New Hampshire"
       },
@@ -13545,7 +13545,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "10",
+        "CODE": "10",
         "STUSPS": "DE",
         "name": "Delaware"
       },
@@ -14341,7 +14341,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "48",
+        "CODE": "48",
         "STUSPS": "TX",
         "name": "Texas"
       },
@@ -14638,7 +14638,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "27",
+        "CODE": "27",
         "STUSPS": "MN",
         "name": "Minnesota"
       },
@@ -14711,7 +14711,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "09",
+        "CODE": "09",
         "STUSPS": "CT",
         "name": "Connecticut"
       },
@@ -14839,7 +14839,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "34",
+        "CODE": "34",
         "STUSPS": "NJ",
         "name": "New Jersey"
       },
@@ -14940,7 +14940,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "38",
+        "CODE": "38",
         "STUSPS": "ND",
         "name": "North Dakota"
       },
@@ -15217,7 +15217,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "24",
+        "CODE": "24",
         "STUSPS": "MD",
         "name": "Maryland"
       },
@@ -15552,7 +15552,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "23",
+        "CODE": "23",
         "STUSPS": "ME",
         "name": "Maine"
       },
@@ -15822,7 +15822,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "15",
+        "CODE": "15",
         "STUSPS": "HI",
         "name": "Hawaii"
       },
@@ -15911,7 +15911,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "44",
+        "CODE": "44",
         "STUSPS": "RI",
         "name": "Rhode Island"
       },
@@ -16394,7 +16394,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "06",
+        "CODE": "06",
         "STUSPS": "CA",
         "name": "California"
       },
@@ -16689,7 +16689,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "36",
+        "CODE": "36",
         "STUSPS": "NY",
         "name": "New York"
       },
@@ -16712,7 +16712,7 @@
         ]
       },
       "properties": {
-        "STATEFP": "11",
+        "CODE": "11",
         "STUSPS": "DC",
         "name": "District of Columbia"
       },
