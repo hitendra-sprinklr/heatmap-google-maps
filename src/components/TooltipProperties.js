@@ -12,7 +12,7 @@ const TooltipProperties = ({ data, regionName }) => {
   //   counter++;
   // }
 
-  const details = `<div><b><span>Name</span></b>  :  <span>${regionName}</span></div><b><span>Code</span></b>  :  <span>${data["CODE"]}</span></div>`;
+  const details = `<div><h3>Drilldown</h3> <hr> <b><span>Name</span></b>  :  <span>${regionName}</span></div><b><span>Code</span></b>  :  <span>${data["CODE"]}</span></div>`;
 
   return details;
 };
